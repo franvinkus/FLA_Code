@@ -1,3 +1,4 @@
+package problem;
 import java.util.ArrayList;
 import java.util.Scanner;
 

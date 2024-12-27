@@ -1,4 +1,4 @@
-package solution;
+package problem;
 
 public class PersonalData {
 	private String name,DOB,address,email, phoneNumber;

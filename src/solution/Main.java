@@ -9,7 +9,7 @@ public class Main {
 		System.out.print("Pass : ");
 		String pass = sc.nextLine();
 		if(name.equals("admin") && pass.equals("admin")) {
-			new Admin(); //call constructor
+			new Admin();
 		}
 	}
 	public static void main(String[] args) {

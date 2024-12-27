@@ -1,3 +1,4 @@
+package problem;
 
 public class AcademicData {
 	private String NIM, degree, major, kelas;

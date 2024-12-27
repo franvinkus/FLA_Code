@@ -1,11 +1,11 @@
-package solution;
+package solution.models;
 
 public class AcademicData {
 	private String NIM, degree, major, kelas;
 
-	public AcademicData(String nIM, String degree, String major, String kelas) {
+	public AcademicData(String NIM, String degree, String major, String kelas) {
 		super();
-		NIM = nIM;
+		this.NIM = NIM;
 		this.degree = degree;
 		this.major = major;
 		this.kelas = kelas;
@@ -36,4 +36,9 @@ public class AcademicData {
 	public void setKelas(String kelas) {
 		this.kelas = kelas;
 	}
+	
+	@Override
+    public String toString() {
+        return "NIM: " + NIM + ", Degree: " + degree + ", Major: " + major + ", Class: " + kelas;
+    }
 }

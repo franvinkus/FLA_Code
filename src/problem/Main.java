@@ -1,3 +1,4 @@
+package problem;
 import java.util.Scanner;
 
 public class Main {
@@ -11,8 +12,8 @@ public class Main {
 			new Admin(); //call constructor
 		}
 	}
-	public static void main(String[] args) {
-		new Main();
-	}
+//	public static void main(String[] args) {
+//		new Main();
+//	}
 
 }
